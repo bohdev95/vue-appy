@@ -139,12 +139,5 @@ Point your browser to http://localhost:3000/ to view the app, or click on one of
 
 **<a href="http://localhost:3000/login?email=test@superadmin.com&password=root" target="_blank">Super Admin</a>**
 
-## Temporary Docs
-Official docs for appy are coming soon, but for now you can find some information in the [appy-backend wiki](https://github.com/bohdev95/vue-appy-backend/wiki)
-
-License
--------
-appy is an open source project by [Justin Headley](http://justinheadley.com) that is licensed under [MIT](http://opensource.org/licenses/MIT).
-
 **This project is undergoing a major update. Complete README and docs coming soon.**
 
