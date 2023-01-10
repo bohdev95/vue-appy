@@ -1,12 +1,5 @@
 <p align="center"><a href="https://appyapp.io" target="_blank" rel="noopener noreferrer"><img width="262" height="295" src="https://user-images.githubusercontent.com/12631935/39099920-eaab3d3e-4636-11e8-9955-b53be05e1c13.png" alt="appy logo"></a></p>
 
-
-A user system leveraging [rest-hapi](https://github.com/JKHeadley/rest-hapi) to bootstrap your app.
-
-appy-backend is the server portion of the [appy](https://appyapp.io) project. It provides a boilerplate user system that leverages the powerful [rest-hapi](https://github.com/JKHeadley/rest-hapi) API generator.  Inspired by the [frame](https://github.com/jedireza/frame) user system, the goal of appy-backend is to provide an easy to use user API that is also capable of supporting a wide range of applications.  appy-backend is a great resource for starting almost any app. By leveraging [rest-hapi](https://github.com/JKHeadley/rest-hapi), adding new endpoints is as simple as defining a new model, and model associations are a snap.  Bootstrapping your app has never been easier!
-
-**NOTE:** For just the backend, make sure you visit [this repo](https://github.com/JKHeadley/appy-backend).
-
 ## Features
  
 * Registration and account activation flows
@@ -19,10 +12,6 @@ appy-backend is the server portion of the [appy](https://appyapp.io) project. It
 * File upload api
 * Endpoint validation and query support
 * Swagger docs for easy endpoint access
-
-## Technologies
-
-appy-backend implements a [hapi](https://github.com/hapijs/hapi) framework server.  appy-backend's RESTful API endpoints are generated through [rest-hapi](https://github.com/JKHeadley/rest-hapi), which means models are based off of [mongoose](https://github.com/Automattic/mongoose) and data is stored in [MongoDB](www.mongodb.org).
 
 ## Demos
 
@@ -72,15 +61,6 @@ Just [Docker](https://docs.docker.com/install)
 You need [Node.js](https://nodejs.org/en/) installed (>=12.14.1) and you'll need [MongoDB](https://docs.mongodb.com/manual/installation/) installed and running.
 
 [Back to top](#readme-contents)
-
-## Getting Started
-
-Download from GitHub:
-
-```bash
-$ git clone https://github.com/JKHeadley/appy-backend.git
-$ cd appy-backend
-```
 
 ## Installation
 
@@ -150,12 +130,6 @@ Once the app is running point your browser to http://localhost:8080/ to view the
 
 [Back to top](#readme-contents)
 
-## Wiki
-
-For detailed explanations on many of the topics covered in this readme, including authentication, authorization, and logging in and testing endpoints, please refer to the [wiki pages](https://github.com/JKHeadley/appy-backend/wiki).
-
-
-[Back to top](#readme-contents)
 
 ## Swagger documentation
 
@@ -173,7 +147,6 @@ There are three optional authentication strategies in appy and each make use of 
 
 The strategy used is determined by the ``restHapiConfig.authStrategy`` config property.
 
-For a more in-depth description of these strategies, please view the [wiki](https://github.com/JKHeadley/appy-backend/wiki/Authentication).
 
 [Back to top](#readme-contents)
 
@@ -229,22 +202,10 @@ Final User Scope:
 ['Admin','Managers','readUser','addUserPermissions']
 ``` 
 
-For a more in-depth description of authorization within appy, please view the [wiki](https://github.com/JKHeadley/appy-backend/wiki/Authorization)
-
 [Back to top](#readme-contents)
 
 ## License
 MIT
-
-[Back to top](#readme-contents)
-
-## Questions?
-If you have any questions/issues/feature requests, please feel free to open an [issue](https://github.com/JKHeadley/appy-backend/issues/new). We'd love to hear from you!
-
-[Back to top](#readme-contents)
-
-## Contributing
-Please reference the contributing doc: https://github.com/JKHeadley/appy-backend/blob/master/CONTRIBUTING.md
 
 [Back to top](#readme-contents)
 
