@@ -4,19 +4,19 @@
   <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.5.16-brightgreen.svg" alt="vue">
   </a>
-  <a href="https://github.com/JKHeadley/appy/blob/master/LICENSE.txt">
+  <a href="https://github.com/bohdev95/vue-appy/blob/master/LICENSE.txt">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
   </a>
-  <a href="https://github.com/JKHeadley/appy/releases">
-    <img src="https://img.shields.io/github/release/JKHeadley/appy/all.svg" alt="GitHub release">
+  <a href="https://github.com/bohdev95/vue-appy/releases">
+    <img src="https://img.shields.io/github/release/bohdev95/vue-appy/all.svg" alt="GitHub release">
   </a>
 </p>
 
-**appy** is a full featured boilerplate web app designed as an end to end solution for mvp development. The frontend is built on [Vue.js](https://vuejs.org) and utilizes the [AdminLTE](https://adminlte.io) UI template. The [backend](https://github.com/JKHeadley/appy/tree/master/backend) implements a hapi server (via [rest-hapi](https://github.com/JKHeadley/rest-hapi)) with a MongoDB datastore. 
+**appy** is a full featured boilerplate web app designed as an end to end solution for mvp development. The frontend is built on [Vue.js](https://vuejs.org) and utilizes the [AdminLTE](https://adminlte.io) UI template. The [backend](https://github.com/bohdev95/vue-appy/tree/master/backend) implements a hapi server (via [rest-hapi](https://github.com/JKHeadley/rest-hapi)) with a MongoDB datastore. 
 
 ![appy-dashboard](https://user-images.githubusercontent.com/12631935/39155220-f691c77e-4705-11e8-9b83-2129a07c6d35.png)
 
-Just want an API server? Try [appy-backend](https://github.com/JKHeadley/appy-backend)
+Just want an API server? Try [appy-backend](https://github.com/bohdev95/vue-appy-backend)
 
 **Live Demo**: https://appyapp.io/#live_demo
 
@@ -39,7 +39,7 @@ You need [Node.js](https://nodejs.org/en/) installed (>=12.14.1) and you'll need
 Download from GitHub:
 
 ```bash
-$ git clone https://github.com/JKHeadley/appy.git
+$ git clone https://github.com/bohdev95/vue-appy.git
 $ cd appy
 ```
 
@@ -140,7 +140,7 @@ Point your browser to http://localhost:3000/ to view the app, or click on one of
 **<a href="http://localhost:3000/login?email=test@superadmin.com&password=root" target="_blank">Super Admin</a>**
 
 ## Temporary Docs
-Official docs for appy are coming soon, but for now you can find some information in the [appy-backend wiki](https://github.com/JKHeadley/appy-backend/wiki)
+Official docs for appy are coming soon, but for now you can find some information in the [appy-backend wiki](https://github.com/bohdev95/vue-appy-backend/wiki)
 
 License
 -------
